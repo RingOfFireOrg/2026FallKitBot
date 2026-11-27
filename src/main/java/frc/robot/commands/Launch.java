@@ -27,7 +27,7 @@ public class Launch extends Command {
     fuelSubsystem
         .setIntakeLauncherRoller(
             SmartDashboard.getNumber("Launching launcher roller value", LAUNCHING_LAUNCHER_VOLTAGE));
-    fuelSubsystem.setFeederRoller(SmartDashboard.getNumber("Launching feeder roller value", -12));
+    fuelSubsystem.setFeederRoller(SmartDashboard.getNumber("Launching feeder roller value", 12));
   }
 
   // Called every time the scheduler runs while the command is scheduled. This
